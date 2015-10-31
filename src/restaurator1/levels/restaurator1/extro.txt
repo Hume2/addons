@@ -1,0 +1,47 @@
+(supertux-text
+(background "extro.jpg")
+(music "music/theme.ogg")
+(text "
+-You finished Restaurated Island I!
+
+*Special thanks to:
+
+	Pedro Augusto
+ Contributed 3 levels.
+
+	Arthur
+	MacTuxer
+	Thomal Leese
+ Contributed 2 levels each.
+
+	Ben
+	Benja
+	Carlos Henrique
+	Dan S. Washko
+	Daniel Aslton
+	David Contreras
+	Denilson
+	DJ Wings
+	F50
+	Francois S. Lamini
+	FRED
+	Gabman7
+	Heidy H
+	Jimmy Mosquera
+	Joao Pedro de Lima
+	Jorge Alberto
+	Linus C Unneback
+	ME
+	Mkkot
+	Norbert de Jouge
+	Sys
+	Tux Hero
+	Xer
+ Contributed 1 level each.
+ If I made a typo, I'm willing to correct it.
+
+	If anyone from this list want to complain, remember the door in the first level.
+
+-C O N G R A T U L A tions!
+	See you later in Restaurated Island II !
+"))
