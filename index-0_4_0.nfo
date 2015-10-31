@@ -141,6 +141,16 @@
     (md5 "17d8c424c6f5d71ec6843dc761ab8d7c")
    )
    (supertux-addoninfo
+    (id "restaurator1")
+    (version 1)
+    (type "world")
+    (title "Restaured Island I")
+    (author "Hume et al.")
+    (license "GPL 2 / CC-by-sa")
+    (url "https://raw.githubusercontent.com/SuperTux/addons/master/repository/restaurator1.zip")
+    (md5 "05c1b0edf9388201eafb8206cdfdca5e")
+   )
+   (supertux-addoninfo
     (id "langpack-de")
     (version 1)
     (type "languagepack")
