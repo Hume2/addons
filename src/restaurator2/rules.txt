@@ -1,0 +1,70 @@
+This is a list of things I'd like you to respect. I'm glad that you make it for
+me, but if you want to do that work properly, then please respect that. I know
+that it's a long list, but the restaurator's work is not easy.
+
+1) Level height at least 36 tiles. The main theme should be in the center of the
+level, not on its top border. To do this, use offset 11 when resizin the level.
+
+2) No passages above the screen!
+
+3) All passages should be at least 3 blocks high.
+
+4) Solid ground, no flying chunks of terrain if possible. And when it is a cave
+or castle level, build it a ceiling.
+
+5) Junk-grounds like empty bonusblocks, coin boxes, blocks, stone bricks etc.
+should be replaced by proper terrain. If you are not sure which theme it
+deserves to be, use ice theme.
+
+6) For cave levels, use only the new darksnow tiles if possible.
+
+7) Due to the fact we have a lot of castle levels, keep the castle theme only
+when the name of the level or the name of the levelset suggests that. Otherwise
+change it to a regular snowy level.
+
+8) You don't have to add an icy background yet, I'll do it manually myself.
+
+9) Do not rename the level files unless told!
+
+10) All stats must be reachable, so no obstructed badguys or uncollectable
+coins!
+
+11) Do not create a worldmap yet!
+
+12) No solid blocks on non-solid layers unless it deserves to be a secret area!
+
+13) All secret areas should have the secret-area trigger. When is passing trough
+a non-solid wall needed for reaching it, it should have a fade-tilemap.
+
+14) Delete all senseless invisible blocks. Turn them to normal terrain or delete
+them entirely.
+
+15) Use appropriate backgrounds.
+
+16) Do not overuse non-ground blocks such as logs, coin bricks and empty bonus
+blocks.
+
+17) There are some levels those are already in Bonus Island II. Delete them
+please and reorder the rest of the levels in given levelset.
+
+18) Delete the one-screen-only levels too. However, do not delete levels those
+are bigger than one screen!
+
+19) The difficulty should be kept if possible. When it's too hard, make it
+easier unless the name suggests that it has to be hard.
+
+20) Replace hordes of badguys by dispensers.
+
+21) Replace tux-dolls by coin-rains or coin-explosions when appropriate.
+
+22) No/minimal scripting.
+
+23) The level exit should be marked by at least one exit pole. Delete all other
+exit poles.
+
+24) Before you strat working, please ask whether is anyone already working on
+the level. We don't want any conflicts.
+
+25) When you see something that resembles an entrance and uses foreground tiles,
+you can put doors here. Do not put doors when Tux is visible all the time by
+entering that space.
