@@ -1,0 +1,49 @@
+=== STAGE 1 ===
+Here's a list of all levelsets. You can assign yourself to max. one levelset at
+once. After you're done with it, write "DONE" instead of your name and then you
+can assign yourself to next one.
+
+02: 8+8 - DONE
+02: Adicional - DONE
+05: Alkatraz - DONE
+04: Amateurs need not apply - DONE
+10: Andrew's island - brmbrmcar
+03: Avrid & Sylvia's world - Hume2
+20: Big castle - ASSIGN HERE
+06: Coders' realm -ASSIGN HERE
+03: Cristoph's - ASSIGN HERE
+06: Dark world - ASSIGN HERE
+03: Dr. Small's domain - ASSIGN HERE
+07: Enter the Morte - ASSIGN HERE
+16: Eriksson's place - ASSIGN HERE
+20: For beginners - ASSIGN HERE
+03: Giga Tux - ASSIGN HERE
+03: Gir world - ASSIGN HERE
+05: Going to the castle - ASSIGN HERE
+04: Grass alert - ASSIGN HERE
+03: Jimmy's games - ASSIGN HERE
+10: Jimmy's trail to hell - ASSIGN HERE
+04: Knolok's palace - ASSIGN HERE
+04: Letli's world - ASSIGN HERE
+05: Master exploder - ASSIGN HERE
+02: Min Sin - ASSIGN HERE
+14: Moo - ASSIGN HERE
+03: Mosiworld - ASSIGN HERE
+05: Mountain Equicont - ASSIGN HERE
+05: Nice day - ASSIGN HERE
+05: Nolok is the king - ASSIGN HERE
+14: Pedro's milestone - ASSIGN HERE
+04: Pedrowolrd hard - ASSIGN HERE
+02: Penny and Tux chaotic - ASSIGN HERE
+07: Piranha ocean - ASSIGN HERE
+09: Piranha river - ASSIGN HERE
+07: Piranha valley - ASSIGN HERE
+02: Planet Tuxy - ASSIGN HERE
+05: Snakeland - ASSIGN HERE
+02: Snow worlds - ASSIGN HERE
+01: The secret marathon - ASSIGN HERE
+06: The secret sea - ASSIGN HERE
+02: Trot like a fox - ASSIGN HERE
+05: Tux, die! - ASSIGN HERE
+04: Witaj, Antarktydo - ASSIGN HERE
+08: YO - ASSIGN HERE

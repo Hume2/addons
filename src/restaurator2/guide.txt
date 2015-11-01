@@ -68,3 +68,13 @@ the level. We don't want any conflicts.
 25) When you see something that resembles an entrance and uses foreground tiles,
 you can put doors here. Do not put doors when Tux is visible all the time by
 entering that space.
+
+26) Before you start, go to "claims.txt" and assign yourself to a levelset that
+you want to restaure. Please don't dig into levelsets those are not assigned to
+you!
+
+27) Keep the level name as is, except it's a very simple name. Then rename it to
+"<levelset name>: <level name>"
+
+28) Add to the author's name your name like this:
+"Tarmo Ruusu, restaured by Hume"
