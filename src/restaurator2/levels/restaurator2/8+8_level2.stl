@@ -21,32 +21,8 @@
     (bouncingsnowball
       (direction "left")
       (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (x 1624)
-      (y 605)
-    )
-    (bouncingsnowball
-      (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (x 1577)
-      (y 607)
-    )
-    (bouncingsnowball
-      (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (x 1384)
-      (y 609)
-    )
-    (bouncingsnowball
-      (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 1429)
       (y 603)
-    )
-    (bouncingsnowball
-      (direction "left")
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (x 1313)
-      (y 613)
     )
     (bouncingsnowball
       (direction "left")
@@ -129,12 +105,6 @@
     (mrbomb
       (direction "left")
       (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (x 1794)
-      (y 672)
-    )
-    (mrbomb
-      (direction "left")
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
       (x 1762)
       (y 672)
     )
@@ -161,18 +131,6 @@
       (sprite "images/creatures/snowball/snowball.sprite")
       (x 1042)
       (y 666)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 999)
-      (y 662)
-    )
-    (snowball
-      (direction "left")
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (x 952)
-      (y 663)
     )
     (snowball
       (direction "left")
