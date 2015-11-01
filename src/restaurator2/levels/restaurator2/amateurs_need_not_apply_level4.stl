@@ -1,7 +1,7 @@
 (supertux-level
   (version 2)
   (name (_ "It's *GO* time!"))
-  (author "TheKorn")
+  (author "TheKorn, restaured by Hume")
   (target-time 0)
   (sector
     (name "main")
