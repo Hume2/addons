@@ -78,3 +78,6 @@ you!
 
 28) Add to the author's name your name like this:
 "Tarmo Ruusu, restaured by Hume"
+
+29) Due to the fact the future of autoscroll is unknown, substitute the
+autoscroll by something else. Use moving platforms, tilemaps or other dangers.
