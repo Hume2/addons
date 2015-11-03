@@ -1,464 +1,408 @@
 (supertux-level
   (version 2)
   (name (_ "Noloks Floor"))
-  (author "gabman7")
+  (author "gabman7, restaured by Hume2")
+  (target-time 0)
   (sector
     (name "main")
-    (gravity 10)
+    (music "music/fortress.ogg")
     (ambient-light 1 1 1)
-    (music "music/chipdisko.ogg")
-    (spawnpoint
-      (x 100)
-      (y 170)
-      (name "main")
-    )
-    (background
-      (scroll-offset-x 0)
-      (scroll-offset-y 0)
-      (scroll-speed-x 0)
-      (scroll-speed-y 0)
-      (speed 0.5)
-      (speed_y 0)
-      (image "images/background/extro.jpg")
-    )
-    (tilemap
-      (draw-target "normal")
-      (width 100)
-      (height 15)
-      (speed 1)
-      (solid #t)
-      (z-pos 0)
-      (tiles 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 48 48 48 48 48 0 0 0 48 48 48 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 48 0 0 0 48 63 63 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 48 0 0 0 48 63 63 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 48 0 0 0 48 63 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 48 0 0 0 48 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 0 0 0 66 66 0 0 0 0 66 66 0 0 0 0 0 0 62 48 48 48 48 48 48 0 0 0 48 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 66 66 66 66 66 0 0 0 0 66 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 48 48 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 66 66 66 66 66 0 0 0 0 66 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 0 66 66 66 66 66 0 0 0 0 66 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 66 66 66 66 66 66 0 0 0 0 66 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 61 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 66 66 66 66 66 66 0 0 0 0 66 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132 0 0 0 66 66 66 66 66 66 0 0 0 0 66 66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 0 0 0 0 0 0 66 102 0 0 84 84 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 48 48 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66)
-    )
-    (tilemap
-      (draw-target "normal")
-      (width 100)
-      (height 15)
-      (speed 1)
-      (solid #f)
-      (z-pos -100)
-      (tiles 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 0 0 0 0 0 0 0 0 71 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    )
-    (tilemap
-      (draw-target "normal")
-      (width 100)
-      (height 15)
-      (speed 1)
-      (solid #f)
-      (z-pos 200)
-      (tiles 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135 134 135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135 0 0 0 0 0 0 134 135 134 135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135 134 135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 48 48 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    )
-    (jumpy
-      (x 294)
-      (y 370)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 297)
-      (y 369)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 301)
-      (y 369)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 305)
-      (y 369)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 306)
-      (y 368)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 317)
-      (y 366)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 317)
-      (y 365)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 322)
-      (y 368)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 329)
-      (y 372)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 335)
-      (y 372)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 344)
-      (y 369)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 350)
-      (y 370)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 365)
-      (y 365)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 372)
-      (y 365)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 375)
-      (y 365)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 379)
-      (y 365)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 382)
-      (y 365)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (mrbomb
-      (x 222)
-      (y 189)
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (direction "left")
-    )
-    (mrbomb
-      (x 258)
-      (y 190)
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 707)
-      (y 404)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 706)
-      (y 356)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 707)
-      (y 313)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 714)
-      (y 265)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 759)
-      (y 265)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 811)
-      (y 262)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 852)
-      (y 264)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 849)
-      (y 306)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 846)
-      (y 355)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 844)
-      (y 401)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 791)
-      (y 396)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 740)
-      (y 397)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 777)
-      (y 331)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 377)
-      (y 416)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 379)
-      (y 414)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 343)
-      (y 416)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 309)
-      (y 416)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 289)
-      (y 409)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 376)
-      (y 415)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 333)
-      (y 411)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flame
-      (x 772)
-      (y 224)
-      (sprite "images/creatures/flame/flame.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 667)
-      (y 163)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 490)
-      (y 381)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 661)
-      (y 380)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 1046)
-      (y 313)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 1094)
-      (y 312)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 437)
-      (y 187)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1315)
-      (y 415)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1466)
-      (y 414)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1798)
-      (y 416)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1845)
-      (y 416)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1894)
-      (y 412)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1936)
-      (y 413)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1867)
-      (y 413)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1978)
-      (y 416)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 2023)
-      (y 413)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 2073)
-      (y 409)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 2114)
-      (y 411)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 2163)
-      (y 409)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (mrbomb
-      (x 1765)
-      (y 313)
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1581)
-      (y 416)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1712)
-      (y 416)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
     (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 2286)
-      (y 398)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
+      (y 750)
     )
     (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 2353)
-      (y 391)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
+      (y 743)
     )
     (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 2401)
-      (y 394)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
+      (y 746)
     )
     (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 2457)
-      (y 395)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
+      (y 747)
     )
     (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 2521)
-      (y 392)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
+      (y 744)
     )
     (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (x 2579)
-      (y 394)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
+      (y 746)
     )
     (bouncingsnowball
-      (x 2643)
-      (y 401)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2643)
+      (y 753)
     )
     (camera
-      (name "Camera")
       (mode "normal")
+    )
+    (flame
+      (x 672)
+      (y 576)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 704)
+      (y 752)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 703)
+      (y 704)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 704)
+      (y 661)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 711)
+      (y 613)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 756)
+      (y 613)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 808)
+      (y 610)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 849)
+      (y 612)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 846)
+      (y 654)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 843)
+      (y 703)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 841)
+      (y 749)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 788)
+      (y 744)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 737)
+      (y 745)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 774)
+      (y 679)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 285)
+      (y 678)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 372)
+      (y 684)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 329)
+      (y 680)
+    )
+    (gradient
+      (top_color 0 0 0.003921569)
+      (bottom_color 1 0 0)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 667)
+      (y 515)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 490)
+      (y 733)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 661)
+      (y 732)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 1046)
+      (y 665)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 1094)
+      (y 664)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 258)
+      (y 542)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 1765)
+      (y 665)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 1315)
+      (y 767)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 1466)
+      (y 766)
+    )
+    (smartblock
+      (x 449)
+      (y 550)
+    )
+    (spawnpoint
+      (name "main")
+      (x 128)
+      (y 544)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1798)
+      (y 768)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1845)
+      (y 768)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1894)
+      (y 764)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1936)
+      (y 765)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1867)
+      (y 765)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1978)
+      (y 768)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 2023)
+      (y 765)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 2073)
+      (y 761)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 2114)
+      (y 763)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 2163)
+      (y 761)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1581)
+      (y 768)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1712)
+      (y 768)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 100)
+      (height 36)
+      (tiles
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 48 48 48 48 48 0 0 0 48 48 48 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 2310 2311 2310 2311 48 0 0 0 48 2380 2380 2310 2311 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 2322 2323 2322 2323 48 0 0 0 48 2310 2311 2322 2323 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 0 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 48 2334 2335 2334 2335 48 0 0 0 48 2322 2323 2334 2335 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 0 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 48 2346 2347 2346 2347 48 0 0 0 48 2334 2335 2346 2347 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 0 0 0 68 69 0 0 0 0 68 69 0 0 0 0 0 0 62 48 48 48 48 48 48 0 0 0 48 2346 2347 2380 2380 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 68 65 65 64 69 0 0 0 0 68 69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 48 48 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 68 64 64 64 69 0 0 0 0 68 69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 0 68 64 64 64 69 0 0 0 0 68 69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 68 64 64 64 64 69 0 0 0 0 68 69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 61 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 68 64 64 64 64 69 0 0 0 0 68 69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      0 0 0 68 64 64 64 64 69 2120 2120 2120 2120 68 69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 0 0 0 0 0 0 69 102 0 0 84 84 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 129 133 0 0 0 0 0 0 0 0 0 0 0 132
+      65 65 65 64 64 64 64 64 64 65 65 65 65 64 64 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 64 65 65 65 65 65 65 64 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      )
+    )
+    (tilemap
+      (solid #f)
+      (speed 0.8)
+      (alpha 0.7)
+      (z-pos -100)
+      (width 100)
+      (height 36)
+      (tiles
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66 66
+      0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0
+      0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0
+      0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0
+      0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0
+      0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0 0 47 0
+      1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0 0 47 1809 1812 47 0
+      1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0 0 47 1810 1813 47 0
+      1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0 0 47 1811 1814 47 0
+      65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65 65
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64 64
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 200)
+      (width 100)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135 134 135 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
     )
   )
 )
