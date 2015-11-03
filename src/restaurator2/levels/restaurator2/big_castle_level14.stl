@@ -1,11 +1,11 @@
 (supertux-level
   (version 2)
   (name (_ "Tresaure Room!"))
-  (author "gabman7")
+  (author "gabman7, restaured by Hume")
   (target-time 0)
   (sector
     (name "main")
-    (music "music/chipdisko.ogg")
+    (music "music/bonuscave.ogg")
     (ambient-light 1 1 1)
     (background
       (speed 0.5)
