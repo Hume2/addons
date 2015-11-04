@@ -9,8 +9,8 @@ can assign yourself to next one.
 04: Amateurs need not apply - DONE
 10: Andrew's island - brmbrmcar
 03: Avrid & Sylvia's world - DONE
-20: Big castle - Hume
-06: Coders' realm -ASSIGN HERE
+20: Big castle - DONE
+06: Coders' realm - ASSIGN HERE
 03: Cristoph's - ASSIGN HERE
 06: Dark world - ASSIGN HERE
 03: Dr. Small's domain - ASSIGN HERE
