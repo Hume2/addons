@@ -1,7 +1,7 @@
 (supertux-level
   (version 2)
   (name (_ "A visit to Town"))
-  (author "Jason Kleinemas")
+  (author "Jason Kleinemas, restaured by Hume")
   (target-time 0)
   (sector
     (name "main")
