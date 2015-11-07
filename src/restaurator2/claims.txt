@@ -10,7 +10,7 @@ can assign yourself to next one.
 10: Andrew's island - brmbrmcar
 03: Avrid & Sylvia's world - DONE
 20: Big castle - DONE
-06: Coders' realm - DONE
+04: Coders' realm - DONE
 03: Cristoph's - DONE
 06: Dark world - Hume
 03: Dr. Small's domain - ASSIGN HERE
@@ -26,7 +26,6 @@ can assign yourself to next one.
 04: Knolok's palace - ASSIGN HERE
 04: Letli's world - ASSIGN HERE
 05: Master exploder - ASSIGN HERE
-02: Min Sin - ASSIGN HERE
 14: Moo - ASSIGN HERE
 03: Mosiworld - ASSIGN HERE
 05: Mountain Equicont - ASSIGN HERE
