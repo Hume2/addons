@@ -12,7 +12,7 @@ can assign yourself to next one.
 20: Big castle - DONE
 06: Coders' realm - DONE
 03: Cristoph's - DONE
-06: Dark world - ASSIGN HERE
+06: Dark world - Hume
 03: Dr. Small's domain - ASSIGN HERE
 07: Enter the Morte - ASSIGN HERE
 16: Eriksson's place - ASSIGN HERE
