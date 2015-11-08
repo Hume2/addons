@@ -39,7 +39,7 @@ a non-solid wall needed for reaching it, it should have a fade-tilemap.
 14) Delete all senseless invisible blocks. Turn them to normal terrain or delete
 them entirely.
 
-15) Use appropriate backgrounds.
+15) Use appropriate backgrounds and music.
 
 16) Do not overuse non-ground blocks such as logs, coin bricks and empty bonus
 blocks.
@@ -84,3 +84,14 @@ autoscroll by something else. Use moving platforms, tilemaps or other dangers.
 
 30) When the level contains an added content (eg. background, music), substitute
 it by something that is already in SuperTux.
+
+31) I don't want any not-tiling tiles!!!!!
+
+32) Use the new water if possible.
+
+33) When the level is harder, put some resetpoints there.
+
+34) Seriously, the level must be finishable.
+
+35) Use the pipe crossing and bend tiles where appropriate. Logically, they
+weren't there in 0.1.3, but now we have them, so please use them.
