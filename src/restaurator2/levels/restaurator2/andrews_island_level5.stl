@@ -21,7 +21,7 @@
       (y 704)
     )
     (infoblock
-      (message (_ ""Are you lost?"))
+      (message (_ "Are you lost?"))
       (x 2816)
       (y 608)
     )
