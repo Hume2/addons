@@ -1,7 +1,7 @@
 (supertux-level
   (version 2)
   (name (_ "B2F.Long way..."))
-  (author "C.P.")
+  (author "C.P., restaured by Hume")
   (target-time 0)
   (sector
     (name "main")

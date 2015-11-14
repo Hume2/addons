@@ -12,8 +12,8 @@ can assign yourself to next one.
 20: Big castle - DONE
 04: Coders' realm - DONE
 03: Cristoph's - DONE
-06: Dark world - Hume
-03: Dr. Small's domain - ASSIGN HERE
+06: Dark world - DONE
+03: Dr. Small's domain - Hume
 07: Enter the Morte - ASSIGN HERE
 16: Eriksson's place - ASSIGN HERE
 20: For beginners - ASSIGN HERE
