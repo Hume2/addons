@@ -13,8 +13,8 @@ can assign yourself to next one.
 04: Coders' realm - DONE
 03: Cristoph's - DONE
 06: Dark world - DONE
-03: Dr. Small's domain - Hume
-07: Enter the Morte - ASSIGN HERE
+03: Dr. Small's domain - DONE
+07: Enter the Morte - Hume
 16: Eriksson's place - ASSIGN HERE
 20: For beginners - ASSIGN HERE
 03: Giga Tux - ASSIGN HERE
