@@ -2,799 +2,334 @@
   (version 2)
   (name (_ "Il Fuori Tutto!"))
   (author "Silian")
+  (target-time 0)
   (sector
     (name "main")
-    (gravity 10)
-    (ambient-light 1 1 1)
     (music "music/chipdisko.ogg")
-    (spawnpoint
-      (x 100)
-      (y 170)
-      (name "main")
-    )
+    (ambient-light 1 1 1)
     (background
-      (scroll-offset-x 0)
-      (scroll-offset-y 0)
-      (scroll-speed-x 0)
-      (scroll-speed-y 0)
       (speed 0.5)
-      (speed_y 0)
       (image "images/background/arctis.jpg")
     )
-    (tilemap
-      (draw-target "normal")
-      (width 100)
-      (height 15)
-      (speed 1)
-      (solid #t)
-      (z-pos 0)
-      (tiles 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 47 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 104 104 104 104 104 104 104 104 0 200 130 130 200 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62 62 62 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 0 0 0 0 0 0 0 104 0 200 129 129 200 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 0 47 47 47 0 0 83 0 0 0 0 0 0 0 0 0 102 0 0 0 0 0 0 0 0 0 0 102 0 0 0 104 0 0 0 0 0 0 0 104 0 200 129 129 200 200 0 104 104 104 0 0 104 104 104 104 0 0 104 0 0 104 0 0 104 104 104 104 103 103 103 103 62 0 62 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102 0 0 0 0 0 0 0 0 0 104 0 0 0 0 0 0 0 104 0 0 129 129 0 0 0 104 0 0 0 0 104 0 0 104 0 0 104 104 0 104 0 0 104 104 0 0 0 0 0 0 0 0 62 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0 44 0 0 0 44 44 44 0 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 104 0 0 0 0 0 0 0 104 0 0 129 129 0 0 0 104 0 0 0 0 104 104 104 104 0 0 104 0 104 104 0 0 104 0 0 0 0 0 0 0 62 62 62 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 44 0 44 0 44 0 0 0 0 0 0 62 0 0 0 0 104 0 0 0 0 0 0 0 0 128 0 0 0 104 0 0 0 0 0 0 0 104 0 0 80 80 0 0 0 104 104 104 0 0 104 0 0 104 0 0 104 0 0 104 0 0 104 104 104 0 0 0 29 29 62 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 0 44 44 44 0 44 44 44 0 0 0 62 62 62 0 0 0 0 104 104 104 104 104 104 104 105 105 105 0 0 104 104 104 104 104 104 104 104 0 0 0 48 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 0 0 0 0 62 0 62 62 62 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 62 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 62 136 137 0 0 0 0 0 0 0 0 0 0 48 0 48 47 48 48 48 0 0 0 0 47 0 0 47 0 0 0 0 0 0 62 0 0 62 0 62 62 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62 0 62 136 139 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 47 62 62 0 0 0 62 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 44 44 0 104 62 0 0 0 47 0 0 133 132 48 48 48 48 48 48 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 0 0 0 47 62 62 0 0 0 0 0 0 62 0 0 0 0 0 0 104 0 0 0 0 0 0 0 0 0 0 0 0 0 48 0 0 0 0 0 104 0 0 0 0 134 135 0 0 0 0 0 0 0 0 0 0 0 0 44 102 102 102 44 0 0 62 0 62 62 62 0 0 133 132 0 0 0 0 0 0 48 0 0 0 0 0 0 0 0 0 275 275 275 275 275 275 275 275 275 47 47 47 47 47 62 62 62 62 62 62 62 62 62 104 0 104 104 104 0 0 0 104 105 0 0 0 0 105 0 0 0 0 105 0 0 0 104 104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 44 44 0 0 62 0 62 0 0 0 0 133 132 0 0 0 0 0 0 48 0 0 48 0 0 48 0 0 48 281 281 281 281 281 83 281 281 281 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 62 0 133 132 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 281 281 281 83 281 281 281 281 281 281 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 44 44 44 44 44 44 44 44 44 44 44 0 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 104 62 62 62 62 62 62 62 62 0 0 0 0 0 0 0 48 0 0 0 48 0 0 48 281 281 281 281 281 281 281 281 281 281 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1311 1311 1311 1311 1311 1311 1311 1311 1311 1311 1311 1311 1311 1311 1311 1311 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    )
-    (tilemap
-      (draw-target "normal")
-      (width 100)
-      (height 15)
-      (speed 1)
-      (solid #f)
-      (z-pos -100)
-      (tiles 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    )
-    (tilemap
-      (draw-target "normal")
-      (width 100)
-      (height 15)
-      (speed 1)
-      (solid #f)
-      (z-pos 200)
-      (tiles 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
-    )
-    (jumpy
-      (x 245)
-      (y 308)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 297)
-      (y 293)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 340)
-      (y 352)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 387)
-      (y 301)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 439)
-      (y 361)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 479)
-      (y 290)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (mrbomb
-      (x 390)
-      (y 192)
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 376)
-      (y 183)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 670)
-      (y 23)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (fish
-      (x 483)
-      (y 342)
-      (sprite "images/creatures/fish/fish.sprite")
-      (direction "left")
-    )
-    (fish
-      (x 670)
-      (y 6)
-      (sprite "images/creatures/fish/fish.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 323)
-      (y 54)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 393)
-      (y 54)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 536)
-      (y 392)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 856)
-      (y 33)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 925)
-      (y 174)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 644)
-      (y 334)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 803)
-      (y 96)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
     (bouncingsnowball
-      (x 921)
-      (y 39)
+      (direction "left")
       (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 922)
-      (y 33)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 914)
-      (y 20)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 913)
-      (y 17)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 902)
-      (y 13)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
       (x 883)
-      (y 7)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
+      (y 359)
     )
     (bouncingsnowball
-      (x 816)
-      (y 3)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
       (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 1025)
+      (y 416)
     )
     (bouncingsnowball
-      (x 805)
-      (y 5)
+      (direction "left")
       (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 795)
-      (y 18)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 784)
-      (y 18)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 772)
-      (y 24)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 767)
-      (y 30)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 880)
-      (y 119)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 885)
-      (y 131)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 854)
-      (y 104)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 854)
-      (y 106)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 853)
-      (y 112)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 971)
-      (y 171)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 1069)
-      (y 291)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1178)
+      (x 1185)
       (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1173)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1145)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1140)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1131)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1113)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1095)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1073)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1062)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1053)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1045)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1044)
-      (y 316)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1046)
-      (y 306)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1051)
-      (y 297)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1073)
-      (y 287)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1064)
-      (y 287)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1048)
-      (y 298)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1057)
-      (y 160)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1057)
-      (y 160)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1045)
-      (y 289)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1034)
-      (y 302)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1026)
-      (y 312)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1028)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1085)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1124)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1139)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1157)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1158)
-      (y 320)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1160)
-      (y 309)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1165)
-      (y 303)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1175)
-      (y 306)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1357)
-      (y 47)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1225)
-      (y 55)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1198)
-      (y 80)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1348)
-      (y 44)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1412)
-      (y 64)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1366)
-      (y 97)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1332)
-      (y 123)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1357)
-      (y 147)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1575)
-      (y 41)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1554)
-      (y 65)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 1643)
-      (y 39)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 1716)
-      (y 64)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
-    )
-    (mrbomb
-      (x 1791)
-      (y 82)
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (direction "left")
-    )
-    (snowball
-      (x 1638)
-      (y 160)
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1672)
-      (y 38)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1696)
-      (y 35)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1746)
-      (y 35)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1792)
-      (y 36)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1823)
-      (y 36)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (fish
-      (x 1745)
-      (y 112)
-      (sprite "images/creatures/fish/fish.sprite")
-      (direction "left")
-    )
-    (bouncingsnowball
-      (x 1689)
-      (y 114)
-      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
-      (direction "left")
-    )
-    (flyingsnowball
-      (x 1657)
-      (y 97)
-      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1804)
-      (y 125)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (spiky
-      (x 1966)
-      (y 254)
-      (sprite "images/creatures/spiky/spiky.sprite")
-      (direction "left")
-    )
-    (snowball
-      (x 1720)
-      (y 151)
-      (sprite "images/creatures/snowball/snowball.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 2944)
-      (y 34)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 3043)
-      (y -32)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 2946)
-      (y 160)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 3015)
-      (y 96)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 2946)
-      (y 288)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 3035)
-      (y 357)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (mrbomb
-      (x 2949)
-      (y 223)
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (direction "left")
-    )
-    (mrbomb
-      (x 3009)
-      (y 96)
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (direction "left")
-    )
-    (mrbomb
-      (x 3017)
-      (y 380)
-      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 3002)
-      (y 32)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 2954)
-      (y 32)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 3010)
-      (y 96)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 3010)
-      (y 96)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 3012)
-      (y 96)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 3008)
-      (y 243)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 2950)
-      (y 288)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 2947)
-      (y 384)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 3015)
-      (y 364)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (mriceblock
-      (x 2923)
-      (y 96)
-      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 2031)
-      (y 12)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 2016)
-      (y 9)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1998)
-      (y 8)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1982)
-      (y 4)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1968)
-      (y 4)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1955)
-      (y 6)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1939)
-      (y 4)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1929)
-      (y 4)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1922)
-      (y 5)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 1915)
-      (y 5)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (stalactite
-      (x 3199)
-      (y 30)
-      (sprite "images/creatures/stalactite/stalactite.sprite")
-      (direction "left")
-    )
-    (jumpy
-      (x 2874)
-      (y 335)
-      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
-      (direction "left")
     )
     (camera
-      (name "Camera")
       (mode "normal")
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 245)
+      (y 660)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 439)
+      (y 713)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 479)
+      (y 642)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 536)
+      (y 744)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 856)
+      (y 385)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2874)
+      (y 687)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 421)
+      (y 552)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 2981)
+      (y 584)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 3017)
+      (y 732)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 321)
+      (y 550)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 1057)
+      (y 512)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 2947)
+      (y 736)
+    )
+    (secretarea
+      (fade-tilemap "secret1")
+      (script "")
+      (message "")
+      (width 444)
+      (height 32)
+      (x 1504)
+      (y 800)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 716)
+      (x 3264)
+      (y 52)
+    )
+    (sequencetrigger
+      (sequence "stoptux")
+      (width 32)
+      (height 716)
+      (x 4000)
+      (y 64)
+    )
+    (smartblock
+      (x 1249)
+      (y 486)
+    )
+    (smartblock
+      (x 2945)
+      (y 454)
+    )
+    (spawnpoint
+      (name "main")
+      (x 32)
+      (y 608)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1225)
+      (y 407)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 1357)
+      (y 499)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 2406)
+      (y 714)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 320)
+      (y 388)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 384)
+      (y 388)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 803)
+      (y 448)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 2944)
+      (y 388)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 2944)
+      (y 548)
+    )
+    (stalactite
+      (sprite "images/creatures/stalactite/stalactite.sprite")
+      (x 3040)
+      (y 676)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 130)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 7 8 8 8 9 0 0 0 0 0 0 7 8 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 8 8 8 8 8 8 8 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 13 14 14 14 15 0 0 0 0 0 0 13 14 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 14 14 14 14 14 14 14 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 62 62 62 62 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 16 17 17 17 18 0 0 0 0 0 0 10 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 8 22 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27 28 28 28 62 0 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 0 10 11 12 0 0 83 0 0 0 0 0 0 0 0 0 102 0 0 0 0 0 0 0 0 0 0 0 0 13 14 23 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 2149 1719 1718 0 0 2149 1719 1719 2150 0 0 1348 3024 0 1348 0 0 2149 1719 1719 1718 0 0 0 0 0 0 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 17 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 16 17 31 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 79 0 0 0 0 79 0 0 79 0 0 79 3015 3024 79 0 0 2003 1718 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 0 44 0 0 0 44 44 44 0 44 0 0 0 0 0 0 202 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 10 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 79 0 0 0 0 2003 1719 1719 2002 0 0 79 3027 3015 79 0 0 79 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 0 0 0 44 0 44 0 44 0 0 0 0 0 7 204 9 0 0 0 7 8 8 8 8 8 8 8 8 128 9 0 0 10 11 11 11 11 11 11 11 12 0 0 7 8 8 9 0 2151 1719 1718 0 0 1349 0 0 1349 0 0 1349 0 3027 1349 0 0 2151 1719 3006 3024 0 0 27 28 62 62 62 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 0 44 44 44 0 44 44 44 0 0 7 114 214 15 0 0 0 13 14 14 14 14 14 14 14 14 14 15 0 0 16 17 17 17 17 17 17 17 18 0 0 13 14 14 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3027 3022 0 0 0 0 62 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 7 8 8 8 8 8 9 0 0 0 0 202 0 0 202 0 0 0 0 0 0 7 114 23 11 21 9 0 0 16 17 17 17 17 17 17 17 17 17 18 0 0 0 0 0 0 0 0 0 0 0 0 0 16 17 17 18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 13 14 14 14 14 14 15 0 0 0 0 203 0 0 203 0 0 0 0 0 0 13 23 11 11 20 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 44 44 0 0 62 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      8 8 8 8 8 8 9 0 16 17 17 17 17 17 18 0 0 0 0 3059 0 0 3059 0 0 0 83 0 0 10 11 11 11 11 21 8 8 8 9 0 0 0 0 0 0 202 0 0 0 0 0 0 0 0 0 0 0 0 0 202 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 102 102 102 44 0 104 62 0 62 62 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      14 14 14 14 14 14 15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 0 0 0 10 11 11 11 11 20 14 14 14 113 9 0 0 0 0 0 203 0 7 9 0 0 0 0 202 0 0 0 0 202 203 0 0 0 0 0 0 0 0 0 0 134 135 0 0 0 0 0 0 0 0 0 0 0 0 44 44 44 44 44 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 20 15 0 0 0 0 0 3059 0 13 15 0 0 0 0 203 0 0 0 0 203 3059 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 0 0 0 7 8 8 8 22 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 16 18 0 0 0 0 3059 0 0 0 0 3059 0 0 0 7 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 62 0 0 0 7 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8
+      11 11 11 11 11 11 21 9 0 202 0 0 202 0 0 202 0 0 83 0 0 0 0 0 0 13 14 14 14 23 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 62 62 62 62 62 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14
+      11 11 11 11 11 11 20 15 0 203 0 0 203 0 0 203 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 44 44 44 44 44 44 44 44 44 44 44 44 44 44 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 3059 0 202 3059 0 202 3059 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 27 28 28 28 28 28 28 28 28 28 28 28 28 29 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 203 0 0 203 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 3059 0 0 3059 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 130)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 2199 2199 2199 2199 2186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 2192 2180 2181 2180 2180 2180 2181 2180 2198 2199 2199 2199 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 3277 3277 3277 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 2192 2188 2189 2188 2188 2188 2189 2188 2180 2181 2180 2181 2180 2199 2199 2186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3004 0 0 0 0 0 0 0 0 0 0 0 0 0 3280 3277 3277 3277 3277 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 2192 2195 2196 2195 2195 2195 2196 2195 2188 2189 2188 2189 2180 2181 2180 2198 2199 2199 2186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3027 0 0 0 0 0 0 0 0 0 0 0 0 0 3280 3277 3277 3277 3277 0 0 0 0 0 130 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 2185 2200 2180 2181 2180 2180 2181 2180 2180 2181 2180 2195 2196 2188 2189 2188 2180 2181 2180 2198 2186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3024 0 0 0 0 0 0 0 0 0 0 3280 3277 3277 3277 3277 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 2192 2180 2181 2180 2188 2188 2189 2188 2188 2189 2188 2180 2181 2180 2180 2181 2180 2180 2181 2180 2198 2186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2185 2199 0 0 0 0 0 0 0 2199 2186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2999 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 2192 2188 2189 2180 2181 2180 2196 2195 2195 2180 2181 2180 2189 2188 2188 2189 2188 2188 2180 2181 2180 2198 2199 2186 0 2199 2199 2199 2199 2199 0 0 0 0 0 0 0 0 0 2199 2199 2200 2180 2181 2180 2180 2181 2180 2180 2181 2180 2198 2199 2199 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 3277 3277 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 2192 2195 2196 2188 2189 2188 2181 2180 2181 2180 2189 2188 2196 2195 2195 2196 2195 2180 2181 2180 2180 2181 2180 2198 0 2180 2181 2180 2180 2181 2180 2180 2181 2180 2180 2181 2180 2180 2181 2180 2180 2181 2188 2189 2188 2188 2189 2188 2188 2189 2188 2180 2181 2180 2190 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 3277 3277 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 126 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 2185 2200 2180 2181 2195 2196 2195 2189 2188 2189 2180 2181 2180 2181 2180 2181 2180 2181 2180 2189 2188 2188 2189 2188 0 0 2188 2189 2188 2188 2189 2188 2188 2189 2188 2188 2189 2188 2188 2189 2188 2188 2189 2195 2180 2181 2180 2180 2181 2180 2196 2195 2188 2189 2188 2190 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 3277 3277 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2185 2200 2180 2181 2180 2188 2189 2180 2181 2180 2181 2188 2189 2188 2189 2188 2189 2188 2189 2188 2180 2181 2180 2180 2181 2180 0 2195 2196 2195 2195 2196 2195 2195 2196 2195 2195 2180 2181 2180 2196 2195 2195 2196 2195 2188 2189 2188 2188 2189 2188 2180 2181 2180 2196 2195 2198 2186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2200 2180 2181 2180 2188 2195 2196 2188 2189 2188 2189 2195 2180 2181 2180 2195 2196 2195 2196 2195 2188 2189 2188 2188 2189 2188 0 0 0 0 0 0 2180 2181 2180 2180 2181 2188 2189 2188 2180 2180 2181 2180 2181 2180 2180 2195 2195 2196 2195 2181 2180 2188 2180 2181 2180 2198 2186 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 3277 3277 3278 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2180 2188 2189 2188 2195 2180 2181 2180 2196 2195 2180 2181 2180 2189 2188 2188 2189 2180 2181 2180 2181 2180 2180 2195 2196 2195 0 0 0 0 0 0 2188 2189 2188 2188 2189 2195 2196 2195 2188 2188 2189 2188 2189 2188 2188 2180 2181 2180 2188 2189 2188 2195 2188 2189 2188 2180 2190 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 3277 3277 3278 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2188 2195 2180 2181 2180 2188 2189 2180 2181 2180 2188 2189 2180 2181 2180 2181 2180 2188 2189 2188 2189 2188 2188 2189 2188 0 0 0 0 0 0 0 2195 2180 2181 2180 2180 2181 2180 2181 2180 2195 2196 2180 2181 2180 2195 2188 2189 2188 2195 2196 2195 2180 2181 2180 2195 2188 2190 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3277 3277 3277 3278 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2195 2196 2188 2189 2180 2181 2180 2188 2189 2180 2181 2180 2188 2189 2188 2189 2188 2195 2180 2181 2180 2195 2195 2196 2195 0 0 0 0 0 0 0 0 2188 2189 2188 2188 2189 2188 2189 2180 2181 2180 2188 2189 2188 2180 2181 2180 2195 2180 2181 2180 2188 2189 2188 2196 2195 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2180 2181 2180 2196 2188 2189 2180 2181 2180 2188 2189 2188 2180 2181 2180 2181 2180 2180 2181 2180 2188 0 0 0 0 0 0 0 0 0 0 0 0 2195 2196 2195 2195 2196 2195 2196 2188 2189 2180 2181 2180 2195 2180 2181 2180 2181 2180 2189 2188 2195 2196 2195 2180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2188 2189 2180 2181 2180 2181 2188 2189 2180 2195 2196 2195 2188 2189 2188 2189 2188 2188 2189 2188 2195 0 0 0 0 0 0 0 0 0 0 0 2180 2181 2180 2180 2181 2180 2180 2181 2180 2196 2188 2189 2180 2181 2180 2189 2188 2189 2180 2181 2180 2181 2180 2189 2188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2180 2181 2188 2189 2188 2189 2195 2196 2188 2189 2188 2180 2195 2196 2195 2196 2195 2195 2196 2195 0 0 0 0 0 0 0 0 0 0 0 0 2188 2189 2188 2188 2189 2188 2188 2189 2188 2180 2181 2180 2188 2180 2181 2180 2195 2196 2188 2189 2188 2189 2188 2196 2195 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2188 2189 2195 2196 2195 2196 2195 2180 2195 2196 2195 2188 2189 2180 2181 2180 2181 2180 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 0 2195 2196 2180 2181 2180 2195 2195 2196 2195 2188 2189 2188 2195 2188 2189 2188 2180 2181 2195 2196 2195 2196 2195 2181 2180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2195 2180 2181 2180 2188 2189 2188 2188 2189 2188 2188 2195 2196 2188 2189 2188 2189 2188 2188 2189 2188 0 0 0 0 0 0 0 0 0 0 0 2188 2189 2188 2189 2188 2181 2180 2180 2181 2180 2180 2181 2180 2181 2180 2195 2188 2189 2188 2180 2181 2180 2188 2189 2188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 2188 2189 2188 2195 2196 2195 2195 2196 2195 2195 2196 2195 2195 2196 2180 2181 2180 2195 2196 2195 0 0 0 0 0 0 0 0 0 0 0 2195 2196 2195 2196 2195 2189 2188 2188 2189 2188 2188 2189 2188 2189 2188 2181 2180 2196 2195 2188 2189 2188 2195 2196 2195 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2180 2195 2196 2180 2181 2188 2189 2188 2180 2181 2188 2189 2188 2180 2181 2188 2189 2188 2181 2180 0 0 0 0 0 0 0 0 0 0 0 0 2188 2189 2188 2180 2181 2180 2181 2180 2181 2180 2195 2196 2195 2196 2195 2189 2188 2180 2181 2180 2181 2180 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2188 2189 2188 2188 2189 2195 2196 2195 2188 2189 2195 2196 2195 2188 2189 2195 2196 2195 2189 2188 0 0 0 0 0 0 0 0 0 0 0 0 2195 2196 2195 2188 2189 2188 2189 2188 2189 2188 2189 2188 2188 2189 2188 2196 2195 2188 2189 2188 2189 2188 2188 2189 2188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 2195 2196 2195 2195 2180 2181 2180 2180 2195 2180 2181 2180 2181 2195 2196 2195 2181 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 0 0 0 2180 2181 2195 2196 2195 2196 2195 2196 2195 2196 2195 2195 2196 2195 2180 2181 2180 2181 2180 2196 2195 2180 2181 2180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 2180 2181 2180 2188 2189 2188 2188 2189 2188 2189 2188 2189 2188 2181 2188 2189 2188 2189 2188 0 0 0 0 0 0 0 0 0 0 0 0 0 2188 2189 2195 2196 2195 2188 2189 2188 2188 2189 2188 2188 2189 2188 2188 2189 2188 2189 2188 2189 2188 2188 2189 2188 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 2188 2189 2188 2195 2196 2195 2195 2196 2195 2196 2195 2196 2195 2189 2195 2196 2195 2196 2195 0 0 0 0 0 0 0 0 0 0 0 0 0 2195 2196 2195 2195 2196 2195 2196 2195 2195 2196 2195 2195 2196 2195 2195 2196 2195 2196 2195 2196 2195 2195 2196 2195 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 200)
+      (width 130)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 201)
+      (name "secret1")
+      (path
+        (node
+          (x 1504)
+          (y 800)
+        )
+      )
+      (width 14)
+      (height 2)
+      (tiles
+      2189 2180 2181 2180 2195 2180 2181 2180 2181 2180 2189 2188 2195 2196
+      2196 2188 2189 2180 2181 2180 2189 2188 2189 2180 2181 2180 2181 2180
+      )
     )
   )
 )
