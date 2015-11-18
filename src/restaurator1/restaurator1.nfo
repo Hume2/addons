@@ -1,0 +1,7 @@
+(supertux-addoninfo
+  (id "restaurator1")
+  (version 2)
+  (type "world")
+  (title "Restaured Island I")
+  (author "Hume")
+  (license "GPL 2+ / CC-by-sa 3.0"))

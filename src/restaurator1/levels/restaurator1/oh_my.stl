@@ -1,0 +1,2486 @@
+(supertux-level
+  (version 2)
+  (name (_ "Oh, My!!!!!!"))
+  (author "David Contreras")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (target-time 0)
+  (sector
+    (name "main")
+    (music "music/chipdisko.ogg")
+    (ambient-light 1 1 1)
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5906)
+      (y 661)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5845)
+      (y 625)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5785)
+      (y 551)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5678)
+      (y 518)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5611)
+      (y 574)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5600)
+      (y 633)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5483)
+      (y 672)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5512)
+      (y 631)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5468)
+      (y 591)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5465)
+      (y 568)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2936)
+      (y 373)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2978)
+      (y 366)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3006)
+      (y 373)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3046)
+      (y 372)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3102)
+      (y 376)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2957)
+      (y 414)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2996)
+      (y 414)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3039)
+      (y 415)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3089)
+      (y 422)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3130)
+      (y 435)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3122)
+      (y 473)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3073)
+      (y 471)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3011)
+      (y 469)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2953)
+      (y 463)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2928)
+      (y 509)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3016)
+      (y 515)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3067)
+      (y 522)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3101)
+      (y 530)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3103)
+      (y 587)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3054)
+      (y 576)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2985)
+      (y 587)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2926)
+      (y 573)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2939)
+      (y 629)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 3100)
+      (y 619)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5078)
+      (y 358)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5106)
+      (y 361)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5128)
+      (y 359)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5154)
+      (y 363)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5186)
+      (y 359)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5207)
+      (y 360)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5243)
+      (y 357)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5274)
+      (y 358)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5292)
+      (y 359)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5316)
+      (y 358)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5345)
+      (y 358)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5380)
+      (y 358)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5404)
+      (y 360)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6227)
+      (y 377)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6277)
+      (y 367)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6296)
+      (y 367)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5735)
+      (y 500)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5709)
+      (y 416)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5337)
+      (y 409)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5384)
+      (y 411)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5367)
+      (y 457)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5372)
+      (y 551)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5316)
+      (y 490)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5300)
+      (y 458)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5316)
+      (y 549)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5326)
+      (y 612)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5370)
+      (y 661)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5428)
+      (y 666)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5512)
+      (y 584)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5553)
+      (y 596)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5509)
+      (y 539)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5591)
+      (y 508)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5965)
+      (y 441)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 5970)
+      (y 359)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6238)
+      (y 452)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6294)
+      (y 543)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6275)
+      (y 607)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6252)
+      (y 536)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 6303)
+      (y 421)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 4798)
+      (y 366)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 4902)
+      (y 363)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 4801)
+      (y 527)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 4945)
+      (y 525)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 4742)
+      (y 486)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2571)
+      (y 448)
+    )
+    (bouncingsnowball
+      (direction "left")
+      (sprite "images/creatures/bouncing_snowball/bouncing_snowball.sprite")
+      (x 2604)
+      (y 408)
+    )
+    (camera
+      (mode "normal")
+    )
+    (fish
+      (sprite "images/creatures/fish/fish.sprite")
+      (x 3825)
+      (y 525)
+    )
+    (fish
+      (sprite "images/creatures/fish/fish.sprite")
+      (x 3825)
+      (y 599)
+    )
+    (fish
+      (sprite "images/creatures/fish/fish.sprite")
+      (x 4164)
+      (y 583)
+    )
+    (fish
+      (sprite "images/creatures/fish/fish.sprite")
+      (x 3886)
+      (y 605)
+    )
+    (fish
+      (sprite "images/creatures/fish/fish.sprite")
+      (x 4026)
+      (y 586)
+    )
+    (fish
+      (sprite "images/creatures/fish/fish.sprite")
+      (x 4165)
+      (y 589)
+    )
+    (fish
+      (sprite "images/creatures/fish/fish.sprite")
+      (x 3943)
+      (y 563)
+    )
+    (flame
+      (x 4256)
+      (y 352)
+    )
+    (flame
+      (x 4256)
+      (y 512)
+    )
+    (flame
+      (x 4256)
+      (y 672)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 4028)
+      (y 457)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 3892)
+      (y 428)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 4109)
+      (y 323)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 4022)
+      (y 329)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 4085)
+      (y 545)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 3959)
+      (y 567)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 3738)
+      (y 500)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 3664)
+      (y 496)
+    )
+    (flyingsnowball
+      (sprite "images/creatures/flying_snowball/flying_snowball.sprite")
+      (x 3648)
+      (y 557)
+    )
+    (gradient
+      (top_color 0 0.3137255 1)
+      (bottom_color 1 1 1)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 5426)
+      (y 403)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 5432)
+      (y 498)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 5432)
+      (y 560)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 5424)
+      (y 620)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 5493)
+      (y 501)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 5945)
+      (y 395)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 5938)
+      (y 484)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 5939)
+      (y 606)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2682)
+      (y 365)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2681)
+      (y 426)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2679)
+      (y 483)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2682)
+      (y 538)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2683)
+      (y 592)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2682)
+      (y 644)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2734)
+      (y 366)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2736)
+      (y 434)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2736)
+      (y 485)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2733)
+      (y 551)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2737)
+      (y 612)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2727)
+      (y 665)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2802)
+      (y 368)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2800)
+      (y 437)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2795)
+      (y 494)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2800)
+      (y 558)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2782)
+      (y 625)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2840)
+      (y 648)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2847)
+      (y 565)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2846)
+      (y 498)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2844)
+      (y 428)
+    )
+    (jumpy
+      (sprite "images/creatures/snowjumpy/snowjumpy.sprite")
+      (x 2844)
+      (y 367)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4345)
+      (y 402)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4397)
+      (y 415)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4465)
+      (y 404)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4530)
+      (y 408)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4325)
+      (y 481)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4400)
+      (y 491)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4473)
+      (y 476)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4547)
+      (y 491)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4322)
+      (y 543)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4390)
+      (y 548)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4447)
+      (y 543)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4519)
+      (y 544)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4580)
+      (y 543)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4307)
+      (y 613)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4384)
+      (y 615)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4437)
+      (y 609)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4511)
+      (y 603)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4577)
+      (y 613)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4555)
+      (y 659)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4485)
+      (y 660)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4385)
+      (y 653)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4302)
+      (y 659)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 4446)
+      (y 660)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 5152)
+      (y 484)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6004)
+      (y 380)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6031)
+      (y 379)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6071)
+      (y 376)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6084)
+      (y 377)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6121)
+      (y 377)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6146)
+      (y 377)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6173)
+      (y 377)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6013)
+      (y 420)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6057)
+      (y 424)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6117)
+      (y 421)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6160)
+      (y 432)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6183)
+      (y 436)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 5999)
+      (y 473)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6068)
+      (y 478)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6107)
+      (y 476)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6138)
+      (y 477)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6178)
+      (y 488)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6192)
+      (y 489)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6030)
+      (y 469)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6401)
+      (y 470)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6452)
+      (y 479)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6481)
+      (y 475)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6510)
+      (y 474)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6398)
+      (y 534)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6405)
+      (y 595)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6407)
+      (y 633)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6486)
+      (y 638)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6516)
+      (y 633)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6511)
+      (y 580)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6454)
+      (y 572)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6449)
+      (y 527)
+    )
+    (mrbomb
+      (direction "left")
+      (sprite "images/creatures/mr_bomb/mr_bomb.sprite")
+      (x 6509)
+      (y 526)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5827)
+      (y 468)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5762)
+      (y 465)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5694)
+      (y 463)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5629)
+      (y 464)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5582)
+      (y 467)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5528)
+      (y 466)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5482)
+      (y 468)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5526)
+      (y 437)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5589)
+      (y 438)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5653)
+      (y 436)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5863)
+      (y 579)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5680)
+      (y 557)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 5607)
+      (y 551)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3246)
+      (y 397)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3335)
+      (y 408)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3405)
+      (y 407)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3535)
+      (y 411)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3586)
+      (y 403)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3454)
+      (y 408)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3211)
+      (y 539)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3291)
+      (y 514)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3369)
+      (y 541)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3434)
+      (y 527)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3504)
+      (y 528)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3561)
+      (y 522)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3602)
+      (y 528)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3193)
+      (y 630)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3300)
+      (y 636)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3566)
+      (y 631)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3263)
+      (y 582)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3339)
+      (y 473)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3256)
+      (y 472)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3443)
+      (y 505)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3499)
+      (y 475)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3567)
+      (y 481)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3436)
+      (y 467)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3517)
+      (y 585)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3413)
+      (y 574)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3336)
+      (y 584)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3576)
+      (y 585)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3698)
+      (y 422)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3711)
+      (y 516)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3706)
+      (y 638)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3939)
+      (y 394)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3939)
+      (y 487)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 3931)
+      (y 636)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 4743)
+      (y 667)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 4785)
+      (y 672)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 4834)
+      (y 669)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 4903)
+      (y 667)
+    )
+    (mriceblock
+      (direction "left")
+      (sprite "images/creatures/mr_iceblock/mr_iceblock.sprite")
+      (x 4956)
+      (y 667)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6266)
+      (y 395)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5494)
+      (y 390)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5535)
+      (y 390)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5549)
+      (y 390)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5580)
+      (y 391)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5606)
+      (y 388)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5636)
+      (y 392)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5643)
+      (y 389)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5673)
+      (y 396)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5703)
+      (y 399)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5708)
+      (y 398)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5782)
+      (y 397)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5795)
+      (y 394)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5760)
+      (y 393)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5889)
+      (y 400)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 5857)
+      (y 396)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2590)
+      (y 373)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2533)
+      (y 367)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2461)
+      (y 369)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2240)
+      (y 369)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2131)
+      (y 362)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2208)
+      (y 375)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2233)
+      (y 363)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2280)
+      (y 359)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2300)
+      (y 365)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2338)
+      (y 369)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2365)
+      (y 368)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2386)
+      (y 364)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2409)
+      (y 360)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2411)
+      (y 361)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2189)
+      (y 359)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2109)
+      (y 411)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2232)
+      (y 417)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2297)
+      (y 414)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2331)
+      (y 410)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2403)
+      (y 402)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2429)
+      (y 402)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2357)
+      (y 403)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2189)
+      (y 418)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2153)
+      (y 408)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2116)
+      (y 467)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2233)
+      (y 487)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2428)
+      (y 486)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2320)
+      (y 477)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2172)
+      (y 488)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2138)
+      (y 538)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2233)
+      (y 554)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2298)
+      (y 552)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2355)
+      (y 537)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2413)
+      (y 532)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2456)
+      (y 547)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2170)
+      (y 552)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2137)
+      (y 613)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2177)
+      (y 650)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2246)
+      (y 645)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2282)
+      (y 617)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2223)
+      (y 595)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2360)
+      (y 581)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2393)
+      (y 599)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2336)
+      (y 632)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2303)
+      (y 664)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2375)
+      (y 645)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2448)
+      (y 652)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2417)
+      (y 661)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2339)
+      (y 488)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2528)
+      (y 454)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2502)
+      (y 459)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2474)
+      (y 544)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2506)
+      (y 640)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2558)
+      (y 667)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2554)
+      (y 598)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2513)
+      (y 577)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2496)
+      (y 510)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2558)
+      (y 497)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2593)
+      (y 436)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2560)
+      (y 417)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2521)
+      (y 417)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2464)
+      (y 425)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2476)
+      (y 487)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 2572)
+      (y 553)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6001)
+      (y 519)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6035)
+      (y 530)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6151)
+      (y 542)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6189)
+      (y 538)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6001)
+      (y 590)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6067)
+      (y 600)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6125)
+      (y 598)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6213)
+      (y 604)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6116)
+      (y 658)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6193)
+      (y 658)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6234)
+      (y 661)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6397)
+      (y 358)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6439)
+      (y 358)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6468)
+      (y 358)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6500)
+      (y 356)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6538)
+      (y 357)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6529)
+      (y 394)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6498)
+      (y 392)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6451)
+      (y 402)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6414)
+      (y 385)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6387)
+      (y 394)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6403)
+      (y 430)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6441)
+      (y 435)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6479)
+      (y 427)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6508)
+      (y 424)
+    )
+    (snowball
+      (direction "left")
+      (sprite "images/creatures/snowball/snowball.sprite")
+      (x 6531)
+      (y 423)
+    )
+    (spawnpoint
+      (name "main")
+      (x 100)
+      (y 522)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5803)
+      (y 644)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5673)
+      (y 642)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5726)
+      (y 597)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5547)
+      (y 518)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5660)
+      (y 353)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5678)
+      (y 356)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5725)
+      (y 362)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5761)
+      (y 353)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5788)
+      (y 353)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5822)
+      (y 354)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5869)
+      (y 357)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5932)
+      (y 358)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5605)
+      (y 353)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5525)
+      (y 357)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5494)
+      (y 359)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5441)
+      (y 354)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5466)
+      (y 419)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5437)
+      (y 460)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5839)
+      (y 515)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5800)
+      (y 515)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5902)
+      (y 543)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5887)
+      (y 511)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5845)
+      (y 442)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5797)
+      (y 434)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5633)
+      (y 668)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5537)
+      (y 661)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5648)
+      (y 604)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5774)
+      (y 598)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5816)
+      (y 593)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5883)
+      (y 623)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5859)
+      (y 662)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5737)
+      (y 672)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 5678)
+      (y 669)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 3821)
+      (y 397)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 4244)
+      (y 388)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 4203)
+      (y 510)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 4139)
+      (y 472)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 4212)
+      (y 650)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 4128)
+      (y 665)
+    )
+    (spiky
+      (direction "left")
+      (sprite "images/creatures/spiky/spiky.sprite")
+      (x 4283)
+      (y 517)
+    )
+    (tilemap
+      (solid #f)
+      (speed 0.5)
+      (z-pos -130)
+      (width 225)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 150 150 150 150 150 150 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 151 0 0 0 0 0 0 149 150 150 150 150 150 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 150 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 150 151 0 0 149 150 150 151 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 0 0 0 0 149 150 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 150 150 150 151 0 0 0 0 0 0 152 158 150 150 150 150 151 0 152 153 153 153 153 153 153 154 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 159 153 153 158 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 151 0 149 150 150 150 151 0 0 0 0 152 153 158 150 150 159 153 153 154 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 153 153 153 153 153 153 153 154 0 0 0 0 0 149 151 0 0 0 149 159 153 153 154 0 0 0 0 0 0 0 0 0 0 0 149 150 150 150 159 158 150 150 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 159 153 153 153 154 0 0 0 0 0 0 152 153 153 153 153 153 158 150 159 153 153 153 153 153 153 158 150 150 150 151 0 0 0 0 0 0 0 0 149 150 150 150 150 151 152 153 153 153 153 153 158 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 154 0 152 153 153 153 154 0 0 0 0 152 153 153 153 153 153 245 153 154 0 0 0 0 0 0 0 0 0 0 0 0
+      149 151 149 150 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 152 153 153 153 153 153 153 153 158 150 150 150 150 150 159 158 150 150 151 152 153 153 153 158 151 0 0 0 149 151 0 0 149 150 150 159 153 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 0 0 0 0 149 151 149 159 153 153 153 153 158 150 150 151 0 0 0 152 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 149 159 153 153 153 153 158 159 153 153 153 153 153 153 153 158 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 154 149 159 153 153 153 154 149 150 150 150 159 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 0 0 0 0 0
+      159 158 159 153 153 154 0 0 0 149 151 0 0 0 0 0 0 0 149 159 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 154 152 153 153 245 153 158 150 150 150 159 158 150 151 152 153 153 153 153 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 0 0 0 0 152 154 152 153 153 153 153 153 153 153 153 158 150 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 245 153 153 154 0 0 149 150 150 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 154 0 0 0 149 151 0 0 0 149 151 0 0 0 149 150 150 159 158 150 150 150 150 151 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149 150 150 150 150 151 0 0 0 149 150 150 150 150 151 0 152 158 159 153 153 153 153 154 152 153 153 153 153 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 0 0 0 149 150
+      153 153 153 153 153 158 150 150 151 152 154 0 0 0 0 0 0 0 152 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 158 159 153 153 153 153 153 153 153 153 153 153 153 158 159 153 153 153 153 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 0 0 0 0 152 154 152 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 158 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 158 151 0 0 152 158 151 0 0 152 158 150 150 150 159 153 153 153 153 153 153 153 153 158 151 0 0 0 0 0 0 0 0 149 150 151 0 0 0 0 0 0 152 153 153 153 153 154 0 0 149 159 153 153 153 153 158 150 159 244 153 153 153 153 153 158 159 153 153 153 153 153 153 153 153 153 153 153 158 150 151 0 0 0 0 0 0 0 0 152 153
+      153 153 153 153 153 153 153 153 158 159 154 0 0 0 0 0 0 0 152 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 158 151 0 0 149 150 151 149 150 151 0 0 152 158 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 154 0 0 152 153 158 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 149 159 153 158 151 0 0 0 0 0 152 153 244 153 153 154 0 0 152 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 154 0 0 0 0 0 0 0 0 152 153
+      153 153 153 153 153 153 153 153 153 153 158 150 150 150 150 150 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 158 150 150 159 153 158 159 153 158 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 158 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 158 150 150 150 150 150 150 150 159 153 153 153 158 150 150 150 150 150 159 153 153 153 153 158 150 150 159 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 158 150 150 150 150 150 150 150 150 159 153
+      245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 244 153 153 153 153 153 153 244 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 244 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 244 153 153 153 153 153 153 153 153 153 153 153 245 244 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 244 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 244 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 244 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 244 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 245 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 244 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 245 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 244 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 244 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 245 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153 153
+      )
+    )
+    (tilemap
+      (solid #f)
+      (speed 0.2)
+      (z-pos -170)
+      (width 225)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 162 162 163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 162 163 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 162 162 162 162 162 163 0 0 0 0 161 162 162 162 162 162 162 162 162 162 163 0 161 162 163 0 0 0 0 0 0 0 0 0 0 0 164 165 165 170 163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 163 0 0 0 0 0 0 0 0 0 0 0 164 166 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 162 162 162 163 0 0 0 0 0 0 164 165 166 0 0 161 162 162 162 163 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 166 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 165 165 165 165 165 166 0 161 163 0 164 165 165 165 165 165 165 165 165 165 170 163 164 165 170 162 162 163 0 0 0 0 161 162 162 162 171 165 165 165 170 162 162 162 162 163 0 0 0 0 0 0 0 0 0 161 163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 162 171 166 0 0 0 0 161 163 161 162 162 162 162 171 166 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 165 165 165 166 0 0 161 162 163 0 164 257 170 163 0 164 165 165 165 166 161 162
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 163 0 161 163 0 161 162 162 162 163 0 0 0 0 0 0 0 0 0 161 162 163 0 0 161 162 162 171 166 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 161 171 257 165 165 165 165 170 163 164 166 161 171 165 165 165 165 165 165 165 165 165 165 170 171 165 165 165 165 166 0 0 0 0 164 165 165 165 165 165 165 165 165 165 165 165 165 170 163 0 0 0 0 0 0 161 162 171 166 0 0 0 0 161 162 163 0 0 0 0 0 161 162 163 161 162 162 162 171 165 165 166 0 0 0 0 164 170 171 165 257 165 165 165 170 163 0 0 0 0 0 0 0 0 0 0 0 0 0 161 162 162 163 0 164 165 165 165 166 161 162 171 165 170 162 171 165 165 170 162 171 165 165 165 170 171 165
+      162 162 163 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 170 163 0 0 0 0 0 0 0 0 0 0 0 0 161 163 0 0 0 161 162 171 170 162 171 170 162 171 165 165 165 166 0 0 0 0 0 0 0 0 161 171 165 166 0 161 171 165 165 165 166 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 165 165 257 165 165 165 165 170 171 170 171 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 257 165 170 163 0 0 0 164 165 165 165 165 165 165 165 165 165 165 165 165 165 166 161 163 0 0 0 0 164 165 257 170 163 0 0 0 164 165 166 0 0 0 0 0 164 165 170 171 165 165 165 165 165 165 170 162 163 0 0 164 165 165 165 165 165 165 165 165 170 162 162 163 0 0 0 0 0 0 0 0 0 161 171 165 165 170 162 171 165 165 165 170 171 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165
+      165 165 170 163 161 163 161 163 0 0 0 0 0 0 0 0 0 164 165 166 0 0 0 0 0 0 0 0 0 0 161 162 171 170 163 0 0 164 165 165 165 165 165 165 165 165 165 257 165 170 162 162 163 0 0 0 0 0 164 165 165 170 162 171 165 165 165 165 170 163 0 0 0 0 0 0 0 0 161 162 163 0 0 0 0 0 0 0 164 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 166 0 161 162 171 165 165 165 165 165 165 165 165 165 165 165 165 165 170 171 166 0 0 0 0 164 165 165 165 170 162 162 162 171 165 170 162 163 161 162 162 171 165 165 165 165 165 165 165 165 165 165 165 170 163 0 164 165 165 165 165 165 165 257 165 165 165 165 166 0 0 0 0 0 0 0 0 0 164 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165
+      165 165 165 170 171 170 171 166 0 0 0 0 0 0 0 0 0 164 165 166 0 0 0 0 0 0 0 0 0 0 164 165 257 165 170 162 162 171 165 165 165 165 165 165 165 165 165 165 165 165 165 165 170 163 161 162 162 162 171 165 165 165 165 165 165 165 165 165 165 170 162 162 162 162 162 162 163 0 164 165 170 162 162 162 162 162 163 0 164 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 170 162 171 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 170 163 0 0 0 164 165 165 165 165 165 165 165 165 165 165 165 170 171 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 170 162 171 165 165 165 165 165 165 165 165 165 165 165 166 0 161 163 0 0 0 0 0 161 171 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 170 162 162 162 162 162 162 162 162 162 171 165 170 162 162 162 162 162 162 162 162 162 162 171 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 170 171 165 165 165 165 165 165 165 165 165 165 257 165 165 257 165 165 165 165 165 165 165 170 162 171 165 165 165 165 257 165 165 170 162 171 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 257 165 165 257 165 165 257 257 165 257 165 165 165 165 170 162 162 162 171 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 257 170 162 171 170 162 162 162 162 162 171 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 256 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 257 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 256 165 257 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 257 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 257 165 165 257 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 257 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 257 165 257 165 165 165 256 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 257 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 256 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 257 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 257 165 165 165 256 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 257 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 256 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 256 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 256 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 257 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 257 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165
+      165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 257 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 257 165 165 257 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      165 165 165 165 256 165 165 165 165 165 165 165 165 257 165 165 256 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 256 165 165 165 165 165 165 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 165 165 165 257 165 165 165 165 165 165 165 165 165 165 165 165 165 257 165 165 256 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165 165
+      )
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (width 225)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 44 44 44 44 44 44 44 0 0 0 0 44 44 44 44 44 44 44 44 0 0 44 44 44 44 44 44 44 44 44 0 0 44 44 44 44 44 44 44 44 44 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 102 102 102 102 102 102 102 0 0 0 0 128 128 128 128 128 128 128 128 0 0 102 102 102 102 102 102 102 102 102 0 0 102 102 102 102 102 102 102 102 102 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 47 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 47 0 0 0 0 0 0 0 0 0 0 0 47 0 0 47 0 0 0 47 0 0 0 0 0 0 0 0 0 102 102 102 102 103 103 103 103 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 44 44 44 44 44 44 44 0 0 0 0 44 44 44 44 44 44 44 44 0 0 44 44 44 44 44 44 44 44 44 0 0 44 44 44 44 44 44 44 44 44 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 62 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 103 103 103 103 103 103 103 0 0 84 0 128 128 128 128 128 128 128 128 0 0 103 102 102 102 102 102 102 102 103 0 0 103 103 103 103 103 103 103 103 103 103 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 47 0 0 0 0 0 0 62 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 128 128 128 128 128 128 128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 0 62 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 44 44 44 44 44 44 44 0 0 0 0 44 44 44 44 44 44 44 44 0 0 44 44 44 44 44 44 44 44 44 0 0 44 44 44 44 44 44 44 44 44 44 0 0 0 0 57 58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      44 44 44 44 44 44 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59 60 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 62 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 0
+      44 44 44 44 44 44 0 0 0 57 58 0 0 57 58 0 0 0 0 0 0 0 0 0 0 84 84 0 0 0 0 0 0 0 0 0 84 84 0 0 0 0 0 0 0 0 0 0 0 84 84 0 59 60 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 0 0 84 0 0 0 0 0 0 0 0 47 0 0 0 0 0 0 0 0 47 0 0 0 0 47 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 66 66 8 8 133 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 132 8
+      48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 48 13 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14 14
+      174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 174 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 173 48 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (width 225)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130 0 130 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102 0 102 102 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 126 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136 137 0 0 0 0 0 0 0 0 0 136 137 0 0 136 137 0 0 129 132 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 139 0 0 0 0 0 0 0 0 0 138 139 0 0 138 139 0 0 129 8 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 0 129 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 200)
+      (width 225)
+      (height 36)
+      (tiles
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+      )
+    )
+  )
+)

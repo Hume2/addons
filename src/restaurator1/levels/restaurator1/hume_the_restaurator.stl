@@ -1,0 +1,40 @@
+(supertux-level
+  (version 2)
+  (name (_ "Hume the Restaurator"))
+  (author "Hume")
+  (contact "Nemám zájem, aby mě někdo otravoval.")
+  (license "GPL 2+ / CC-by-sa 3.0")
+  (target-time 0)
+  (sector
+    (name "main")
+    (music "music/intro.ogg")
+    (init-script "wait_for_screenswitch();
+display_text_file(\"levels/restaurator1/intro.txt\");
+wait(0.1);
+wait_for_screenswitch();
+Level.finish(true);")
+    (ambient-light 1 1 1)
+    (camera
+      (mode "normal")
+    )
+    (spawnpoint
+      (name "main")
+      (x 0)
+      (y 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "Interactive")
+      (width 1)
+      (height 5)
+      (tiles
+      0
+      0
+      0
+      0
+      0
+      )
+    )
+  )
+)

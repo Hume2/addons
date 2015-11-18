@@ -1,0 +1,6 @@
+
+(supertux-level-subset
+  (title (_ "Restaured Island I"))
+  (description "A collection of restaured levels from the old SuperTux fan site")
+  (levelset #f)
+)
